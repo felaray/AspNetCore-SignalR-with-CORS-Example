@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRWebPack", "SignalRWebPack\SignalRWebPack.csproj", "{4A165B4F-89AF-4301-8917-C877F070D6B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{823639A0-A77F-4DAC-A4F4-948907CE1A81}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinet", "WebApplication1\Clinet.csproj", "{823639A0-A77F-4DAC-A4F4-948907CE1A81}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
