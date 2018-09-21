@@ -7,7 +7,7 @@ module.exports = {
     entry: "./src/index.ts",
     output: {
         path: path.resolve(__dirname, "wwwroot"),
-        filename: "[name].[chunkhash].js",
+        filename: "[name].js",
         publicPath: "/"
     },
     resolve: {
@@ -31,7 +31,7 @@ module.exports = {
             template: "./src/index.html"
         }),
         new MiniCssExtractPlugin({
-            filename: "css/[name].[chunkhash].css"
+            filename: "css/[name].css"
         })
     ]
 };

@@ -7,8 +7,9 @@ const btnSend: HTMLButtonElement = document.querySelector("#btnSend");
 const username = new Date().getTime();
 var baseUrl = "";
 
+//TODO: 修改端點後需要重新打包 
 baseUrl = "https://feb27.azurewebsites.net";
-baseUrl ="https://localhost:44361"
+//baseUrl ="https://localhost:44361"
 
 const connection = new signalR.HubConnectionBuilder()
     .withUrl(baseUrl + "/hub")
