@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRWebPack", "SignalRWebPack\SignalRWebPack.csproj", "{4A165B4F-89AF-4301-8917-C877F070D6B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{823639A0-A77F-4DAC-A4F4-948907CE1A81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A165B4F-89AF-4301-8917-C877F070D6B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A165B4F-89AF-4301-8917-C877F070D6B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A165B4F-89AF-4301-8917-C877F070D6B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A165B4F-89AF-4301-8917-C877F070D6B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{823639A0-A77F-4DAC-A4F4-948907CE1A81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{823639A0-A77F-4DAC-A4F4-948907CE1A81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{823639A0-A77F-4DAC-A4F4-948907CE1A81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{823639A0-A77F-4DAC-A4F4-948907CE1A81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7A31BD6-F1D1-4744-880E-331C99B0EF1C}
+	EndGlobalSection
+EndGlobal

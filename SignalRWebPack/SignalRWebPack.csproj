@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TypeScriptToolsVersion>3.0</TypeScriptToolsVersion>
+    <UserSecretsId>df979487-699a-4433-9fdb-e446c86cb0a6</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="src\tsconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="src\tsconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+</Project>
