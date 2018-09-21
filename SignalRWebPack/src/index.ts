@@ -4,12 +4,22 @@ import * as signalR from "@aspnet/signalr";
 const divMessages: HTMLDivElement = document.querySelector("#divMessages");
 const tbMessage: HTMLInputElement = document.querySelector("#tbMessage");
 const btnSend: HTMLButtonElement = document.querySelector("#btnSend");
-const username = new Date().getTime();
-var baseUrl = "";
 
-//TODO: 修改端點後需要重新打包 
-baseUrl = "https://feb27.azurewebsites.net";
-//baseUrl ="https://localhost:44361"
+
+
+//呼叫時在js初始化物件
+declare function init(): InitData;
+//定義型別
+class InitData {
+    user: string;
+    appid: string;
+    endpoint: string;
+}
+
+var data = init();
+var baseUrl = data.endpoint;
+var username = data.user == "" ? new Date().getTime() : data.user;
+console.log("Welcome " + data.user);
 
 const connection = new signalR.HubConnectionBuilder()
     .withUrl(baseUrl + "/hub")

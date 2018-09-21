@@ -3,7 +3,9 @@
 <head>
     <meta charset="utf-8" />
     <title>ASP.NET Core SignalR</title>
-<link href="https://feb27.azurewebsites.net/css/main.css" rel="stylesheet"></head>
+    <link href="https://localhost:44361/css/main.css" rel="stylesheet">
+    <!--<link href="https://feb27.azurewebsites.net/css/main.css" rel="stylesheet">-->
+</head>
 <body>
     <div id="divMessages" class="messages">
     </div>
@@ -12,5 +14,25 @@
         <input id="tbMessage" class="input-zone-input" type="text" />
         <button id="btnSend">Send</button>
     </div>
-<script type="text/javascript" src="https://feb27.azurewebsites.net/main.js" async></script></body>
+    <script>
+        var endpoint = "https://localhost:44361";
+
+        function init() {
+            return {
+                "user": "felaray",
+                "appid": "Test1",
+                "endpoint": endpoint
+            };
+        }
+
+        (function (d, m) {
+            var s, h;
+            s = document.createElement("script");
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = endpoint;
+        })(document || {});
+
+    </script>
+</body>
 </html>
